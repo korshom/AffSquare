@@ -8,7 +8,6 @@
     <meta name="description" content="<?php bloginfo('description')?>">
     <meta name="keywords" content="<?php bloginfo('name'); ?>">
     <meta name="author" content="<?php bloginfo('name'); ?>">
-    <link rel="shortcut icon" href="<?=get_option('mas_favicon_img')?>" type="image/x-icon" />
     <title>
         <?php wp_title('|','true','right');?>
         <?php bloginfo('name');?>
